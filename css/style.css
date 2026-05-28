@@ -67,6 +67,9 @@
 .navbar-dark .navbar-nav .nav-link.active {
     background: var(--secondary);
 }
+.logo-image-link img{
+    min-height: 210px;
+}
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
