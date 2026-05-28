@@ -108,7 +108,7 @@
 @media (min-width: 991.98px) {
     .banner {
         position: relative;
-        margin-top: -90px;
+        margin-top: 0;
         z-index: 1;
     }
 }
