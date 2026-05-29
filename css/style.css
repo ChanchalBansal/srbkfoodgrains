@@ -70,6 +70,17 @@
 .logo-image-link img{
     min-height: 210px !important;
 }
+span.site-tagline {
+    FONT-SIZE: 2.8rem;
+    color: #e12323;
+    font-weight: 700;
+}
+h1.mb-0.site-main-line {
+    color: #34ad54;
+}
+.site-header-taglines {
+    flex-direction: column !important;
+}
 
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
