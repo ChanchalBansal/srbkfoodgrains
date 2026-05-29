@@ -82,7 +82,9 @@ h1.mb-0.site-main-line {
 .site-header-taglines {
     flex-direction: column !important;
 }
-
+.banner-carousel-img{
+    max-height: 500px !important;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
