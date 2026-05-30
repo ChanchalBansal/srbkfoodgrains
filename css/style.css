@@ -108,6 +108,16 @@ section.comments#comments{
 .blog-feeds{
     display:none !important;
 }
+.row.gx-5.first-gen-row {
+    padding-bottom: 2rem;
+}
+.row.gx-5.second-gen-row {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.row.gx-5.third-gen-row {
+    padding-top: 2rem;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
