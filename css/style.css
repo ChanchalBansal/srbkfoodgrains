@@ -85,6 +85,29 @@ h1.mb-0.site-main-line {
 .banner-carousel-img{
     max-height: 500px !important;
 }
+
+.post .post-title,
+.post .post-header,
+.post .post-footer,
+.post .comments {
+    display:none !important;
+}
+
+.blog-posts.container{
+    max-width:100% !important;
+    padding:0 !important;
+}
+
+.page .post-body{
+    padding:0 !important;
+    margin:0 !important;
+}
+section.comments#comments{
+    display:none !important;
+}
+.blog-feeds{
+    display:none !important;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
