@@ -152,6 +152,11 @@ section.comments#comments{
     background-size: cover;
 }
 
+img.grain-icon {
+    width: 75px;
+    height: 112px;
+}
+
 @media (min-width: 991.98px) {
     .banner {
         position: relative;
