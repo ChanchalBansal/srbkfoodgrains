@@ -118,6 +118,12 @@ section.comments#comments{
 .row.gx-5.third-gen-row {
     padding-top: 2rem;
 }
+h3.banner-heading{
+    color:#ff9933;
+}
+h1.banner-tail{
+    color:#ff9933;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
