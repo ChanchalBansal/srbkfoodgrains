@@ -124,6 +124,16 @@ h3.banner-heading{
 h1.banner-tail{
     color:#ff9933;
 }
+p.our-mission-para {
+    color: #051002;
+    font-weight: 800;
+    font-size: 18px;
+}
+p.our-vision-para {
+    color: #472706;
+    font-weight: 800;
+    font-size: 18px;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
