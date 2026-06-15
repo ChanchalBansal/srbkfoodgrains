@@ -145,6 +145,9 @@ p.why-choose-us-para{
 .banner-about-us{
     padding-top:7rem !important;
 }
+.banner-aboutus-sec{
+    padding-top:7rem !important;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
