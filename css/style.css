@@ -142,10 +142,10 @@ p.why-choose-us-para{
     color: #232a31 !important;
     font-weight: 500 !important;
 }
-.banner-about-us{
+.banner-about-us, .banner-contact-us{
     padding-top:7rem !important;
 }
-.banner-aboutus-sec{
+.banner-aboutus-sec, .banner-contactus-sec{
     padding-top:7rem !important;
 }
 @media (max-width: 991.98px) {
