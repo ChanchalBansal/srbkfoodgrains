@@ -142,6 +142,9 @@ p.why-choose-us-para{
     color: #232a31 !important;
     font-weight: 500 !important;
 }
+.banner-about-us{
+    padding-top:7rem !important;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
