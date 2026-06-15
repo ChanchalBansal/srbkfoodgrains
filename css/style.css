@@ -138,6 +138,10 @@ p.our-vision-para {
     font-weight: 800;
     font-size: 18px;
 }
+p.why-choose-us-para{
+    color: #232a31 !important;
+    font-weight: 500 !important;
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
