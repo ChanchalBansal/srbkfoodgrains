@@ -5,6 +5,9 @@
     --light: #F6FFF2;
     --dark: #263A4F;
 }
+body{
+    color: rgba(0, 0, 0, 0.87) !important;
+}
 
 .btn {
     font-family: 'Roboto', sans-serif;
