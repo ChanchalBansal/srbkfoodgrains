@@ -154,6 +154,82 @@ p.why-choose-us-para{
 .banner-aboutus-sec, .banner-contactus-sec{
     padding-top:7rem !important;
 }
+/* Premium Table Container */
+.custom-table-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Base Table Styling */
+.custom-premium-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* Table Header (Thead) */
+.custom-premium-table thead tr {
+    background: linear-gradient(135deg, #0d6efd, #0056b3); /* Vibrant Bootstrap Primary Blue */
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+}
+
+.custom-premium-table th {
+    font-weight: 600;
+    border: none;
+    vertical-align: middle;
+}
+
+/* Table Body Cells (Td) */
+.custom-premium-table td {
+    padding: 16px 20px;
+    vertical-align: middle;
+    color: #495057;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Remove bottom border from the last row */
+.custom-premium-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Alternating Row Colors */
+.custom-premium-table tbody tr:nth-of-type(even) {
+    background-color: #f8f9fa; /* Very subtle light gray */
+}
+
+/* Hover Effect for Rows (Micro-animation) */
+.custom-premium-table tbody tr:hover {
+    background-color: #f1f5f9;
+    transform: scale(1.005); /* Slight pop-out effect */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    z-index: 1;
+    position: relative;
+}
+
+/* Responsive adjustments for Mobile */
+@media (max-width: 768px) {
+    .custom-premium-table td {
+        padding: 12px 15px;
+        font-size: 0.95rem;
+    }
+    .custom-premium-table thead tr {
+        font-size: 0.95rem;
+    }
+    
+    /* On very small screens, avoid the hover scale to prevent layout shifts */
+    .custom-premium-table tbody tr:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link  {
         padding: 10px;
