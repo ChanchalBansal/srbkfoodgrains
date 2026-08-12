@@ -171,7 +171,7 @@ p.why-choose-us-para{
 
 /* Table Header (Thead) */
 .custom-premium-table thead tr {
-    background: linear-gradient(135deg, #0d6efd, #0056b3); /* Vibrant Bootstrap Primary Blue */
+    background: linear-gradient(135deg, #34ad54, #1e542d);
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.5px;
