@@ -141,6 +141,19 @@ section.comments#comments{
     padding-top: 2rem;
 }
 
+/* About Us Images - Desktop & Mobile sizing */
+.first-gen-row img, .second-gen-row img, .third-gen-row img {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Adds explicit spacing on desktop between image and text */
+@media (min-width: 992px) {
+    .first-gen-row .col-lg-3, .second-gen-row .col-lg-3, .third-gen-row .col-lg-3 {
+        padding-right: 30px; 
+    }
+}
+
 h3.banner-heading{
     color:#ff9933;
 }
@@ -551,6 +564,34 @@ img.grain-icon {
 }
 
 @media (max-width: 768px) {
+    
+    /* -------------------------------- */
+    /* MOBILE HEADER & BANNER FIXES     */
+    /* -------------------------------- */
+    
+    /* Fix Massive Green Header */
+    .navbar-brand.d-lg-none img {
+        height: 50px !important; 
+        width: auto !important;
+        min-height: unset !important;
+        max-height: 50px !important;
+    }
+    
+    .navbar.bg-primary {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    
+    /* Fix Banner Image Cropping */
+    .bg-hero {
+        background-position: center !important; 
+    }
+    
+    /* Make Banner Text readable over the shop image */
+    .banner-aboutus-sec h1, .banner-contactus-sec h1, .banner-contact-us h1, .banner-about-us h1 {
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    }
+    
     /* Fix Huge Fonts on Mobile */
     h1.mb-0.site-main-line {
         font-size: 1.8rem !important;
@@ -564,7 +605,7 @@ img.grain-icon {
         margin-bottom: 15px;
     }
 
-    /* Fix Logo Height */
+    /* Fix Logo Height on Home Page */
     .logo-image-link img {
         min-height: auto;
         height: 140px;
@@ -612,10 +653,8 @@ img.grain-icon {
         text-align: center;
     }
     
-    /* Fix stretched/squished portrait images in "Our History" */
+    /* Spacing for mobile layout */
     .first-gen-row img, .second-gen-row img, .third-gen-row img {
-        max-width: 100%;
-        height: auto !important;
         margin-top: 20px;
         margin-bottom: 20px;
     }
