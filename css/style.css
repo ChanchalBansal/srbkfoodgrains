@@ -561,34 +561,71 @@ img.grain-icon {
     .logo-image-link img {
         min-height: 180px;
     }
-}
 
-@media (max-width: 768px) {
-    
     /* -------------------------------- */
-    /* MOBILE HEADER & BANNER FIXES     */
+    /* MOBILE NAVBAR HEADER FIXES       */
     /* -------------------------------- */
     
-    /* Fix Massive Green Header */
+    .navbar.bg-primary {
+        background-color: #ffffff !important; /* Make navbar white */
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    
+    /* Ensure hamburger menu is visible on white background */
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(52, 173, 84, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: #34ad54 !important;
+    }
+
+    /* Force logo to a small size */
     .navbar-brand.d-lg-none img {
         height: 50px !important; 
         width: auto !important;
         min-height: unset !important;
         max-height: 50px !important;
     }
-    
-    .navbar.bg-primary {
-        padding-top: 10px !important;
-        padding-bottom: 10px !important;
+
+    /* Add "SITA RAM BAL KRISHAN" text next to the mobile logo */
+    .navbar-brand.d-lg-none::after {
+        content: "SITA RAM BAL KRISHAN";
+        color: #34ad54;
+        font-size: 1.15rem;
+        font-weight: 800;
+        margin-left: 10px;
+        white-space: normal;
+        line-height: 1.2;
     }
+}
+
+@media (max-width: 768px) {
     
-    /* Fix Banner Image Cropping */
+    /* -------------------------------- */
+    /* BANNER IMAGE & CENTERING FIXES   */
+    /* -------------------------------- */
+    
+    /* Fix Banner Image Cropping and Text Readability */
     .bg-hero {
-        background-position: center !important; 
+        background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/srbk-shop.webp) center top no-repeat !important;
+        background-size: cover !important;
     }
     
-    /* Make Banner Text readable over the shop image */
-    .banner-aboutus-sec h1, .banner-contactus-sec h1, .banner-contact-us h1, .banner-about-us h1 {
+    /* Force Center Alignment for Banner Text and Buttons */
+    .banner-aboutus-sec .col-lg-8, 
+    .banner-contactus-sec .col-lg-8, 
+    .banner-contact-us .col-lg-8, 
+    .banner-about-us .col-lg-8 {
+        text-align: center !important;
+        width: 100% !important;
+    }
+
+    .banner-aboutus-sec h1, 
+    .banner-contactus-sec h1, 
+    .banner-contact-us h1, 
+    .banner-about-us h1 {
+        text-align: center !important;
         text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
     }
     
@@ -605,7 +642,7 @@ img.grain-icon {
         margin-bottom: 15px;
     }
 
-    /* Fix Logo Height on Home Page */
+    /* Fix Logo Height on Home Page Desktop Header */
     .logo-image-link img {
         min-height: auto;
         height: 140px;
