@@ -764,3 +764,6 @@ img.grain-icon {
         height: 200px !important; /* Slightly smaller thumbnails for phones */
     }
 }
+.post-footer {
+    margin-left: 7rem;
+}
